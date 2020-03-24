@@ -24,7 +24,7 @@
     </settings>
 
     <typeAliases>
-<!--        <typeAlias alias="blog" type="com.gupaoedu.domain.Blog" />-->
+        <typeAlias alias="blog" type="org.nyy.mybatis.entity.Blog" />
     </typeAliases>
 
 <!--    <typeHandlers>
@@ -57,8 +57,8 @@
     </environments>
 
     <mappers>
-<!--        <mapper resource="BlogMapper.xml"/>-->
-<!--        <mapper resource="BlogMapperExt.xml"/>-->
+        <mapper resource="BlogMapper.xml"/>
+        <mapper resource="BlogMapperExt.xml"/>
     </mappers>
 
 </configuration>
